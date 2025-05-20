@@ -1,0 +1,142 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+      body {
+        background-image: linear-gradient(90deg, #000000, #3533cd);
+      }
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 40px;
+        padding-left: 10%;
+        padding-right: 10%;
+      }
+
+      .logo {
+        color: white;
+        font-family: "Quicksand", sans-serif;
+        font-size: 28px;
+      }
+
+      span {
+        color: #d72323;
+      }
+      nav ul {
+        display: flex;
+      }
+      nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 10px 25px;
+      }
+      nav ul li a {
+        color: white;
+        font-family: "Quicksand", sans-serif;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        border-bottom: 3px transparent;
+        transition: 0.2s ease-in-out;
+      }
+      nav ul li a:hover {
+        color: rgb(214, 214, 214);
+        border-bottom: 3px solid #d72323;
+      }
+
+      nav ul li a:visited {
+        border-bottom: 3px solid #ff2800;
+      }
+
+      h1 {
+        color: #fae17a;
+        font-family: "Nunito", sans-serif;
+        text-align: center;
+        font-size: 46px;
+        margin-bottom: 35px;
+      }
+
+      p {
+        color: white;
+        font-family: "inter", sans-serif;
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 17px;
+      }
+
+      .text-container {
+        margin-top: 70px;
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        
+      }
+
+      button {
+        padding: 15px 16px 15px 16px;
+        border-radius: 20px;
+        border: none;
+        background-color: #fae17a;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bold;
+        position: relative;
+        left: 346px;
+        margin-top: 13px;
+        font-size: 16px;
+      }
+
+        button:hover {
+            opacity: 0.8;
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+        }
+    </style>
+  </head>
+  <body>
+    <header class="navbar-container">
+      <nav class="nav-list">
+        <h2 class="logo">M<span>4</span>hez</h2>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Project</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="text-container">
+      <h1>WHO AM I ?</h1>
+      <p>
+        Saya Moch. Nazril Rezky Mahesa, pelajar SMK jurusan Rekayasa Perangkat
+        Lunak (RPL). Saya memiliki minat besar di bidang pengembangan software,
+        khususnya web development dan game development.
+      </p>
+      <p>
+        Saat ini saya sedang aktif belajar HTML, CSS, JavaScript, Di luar
+        sekolah, saya juga mengikuti online course untuk memperdalam pemahaman
+        dan membangun proyek kecil sebagai latihan.
+      </p>
+      <p>
+        Ketertarikan saya pada dunia game adalah alasan utama saya masuk ke
+        jurusan RPL. Ke depannya, saya ingin mendalami pengembangan game, baik
+        dari sisi teknis (coding, engine seperti Unity/Unreal) maupun aspek
+        kreatifnya.
+      </p>
+      <button onclick="myFunction()">Motivate</button>
+      <script>
+        function myFunction() {
+            alert("“Saya percaya bahwa konsistensi dan semangat belajar adalah kunci untuk menjadi developer hebat.”")
+        }
+    </script>
+    </div>
+  </body>
+</html>
